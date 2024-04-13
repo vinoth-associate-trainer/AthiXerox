@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    background-color: rgb(236, 180, 101);
+}
+.container, a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 4, 255);
+}
+.container a:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.container li {
+    display: inline;
+    float: left;
+}
+.container ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.container img {
+    height: 55px;
+    width: 100px;
+}
+.image img {
+    position: absolute;
+}

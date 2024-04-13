@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    background-image: url('https://images4.alphacoders.com/872/872343.jpg');
+    margin: 0;
+    flex-direction: column;
+    background-size: cover;
+}
+.login {
+    margin-top:     4cm;
+    padding: 30px;
+    border: 2px solid rgb(255, 249, 249);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    width: 300px;
+    background-color: antiquewhite;
+}
+img {
+    height: 80px;
+    width: 150px;
+}
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    font-weight: bold;
+    background-color: lightcoral;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
